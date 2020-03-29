@@ -26,6 +26,6 @@ if __name__ == "__main__":
     label.show()
 
 
-
+    w.resize(600,600)
     w.show()
     sys.exit(app.exec_())

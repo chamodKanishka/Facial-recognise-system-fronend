@@ -7,16 +7,17 @@ from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QMessage
         
 if __name__ == "__main__":
     app = QApplication([])
- 
+    
     
 
     qp = QPalette()
     qp.setColor(QPalette.ButtonText, Qt.black)
-    qp.setColor(QPalette.Window, Qt.gray)
-    qp.setColor(QPalette.Button, Qt.blue)
+    qp.setColor(QPalette.Window, Qt.lightGray)
+    qp.setColor(QPalette.Button, Qt.darkCyan)
     app.setPalette(qp)
 
     w = QWidget()
+
     w.setWindowTitle('Attendence Mark')
     label = QLabel(w)
     label.setText("Welcome")
@@ -24,9 +25,6 @@ if __name__ == "__main__":
     label.setStyleSheet("border-radius: 25px;border: 2px solid blue;")
     label.move(230,30)
     label.show()
-    rad = QRadioButton(w)
-    rad.setChecked(False)
-    rad.show()
     w.resize(600,600)
 
     grid = QGridLayout(w)
@@ -35,8 +33,6 @@ if __name__ == "__main__":
     grid.addWidget(QPushButton("Mark"),0,1)
     grid.addWidget(QPushButton("Download Report"),1,0)
     grid.addWidget(QPushButton("Views Rules"),1,1)
-
-
 
     w.show()
     sys.exit(app.exec_())
