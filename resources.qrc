@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="images">
+    <file>attendance.png</file>
+  </qresource>
+</RCC>
