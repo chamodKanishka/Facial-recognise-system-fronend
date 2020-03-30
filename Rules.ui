@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Rules</class>
+ <widget class="QMainWindow" name="Rules">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>452</width>
+    <height>444</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Our Rules</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>69</y>
+      <width>441</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>439</width>
+       <height>319</height>
+      </rect>
+     </property>
+     <widget class="QScrollBar" name="verticalScrollBar">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>0</y>
+        <width>20</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="welcomeLable">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>10</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <pointsize>26</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 39, 51);</string>
+    </property>
+    <property name="text">
+     <string>Our Rules</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
